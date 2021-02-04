@@ -4,6 +4,7 @@
 
 @section('extra-css-style')
 <link rel="stylesheet" href="{{ asset('css/auth/login.css') }}">
+
 @endsection
 
 @section('content')
@@ -14,7 +15,6 @@
       <i data-feather="arrow-left" stroke-width="2.5" width="16" height="16"></i>
     </a>
     <a href="{{ route('index') }}" ><img src="{{ asset('assets/img/new/Streaming2.png') }}" width="190" height="40" class="d-inline-block align-top p-0 m-0" alt="logo-Web-Creation-streaming" title="logo de Web Creation Streaming"></a>
-    <!-- <button type="button" name="button" class="btn btn-primary">heo</button> -->
   </nav>
 </header>
 
@@ -33,9 +33,11 @@
     Inscrivez vous et bénéficier de tous nos services
   </h5>
 
-  <!-- <a href="{{ url('auth/facebook') }}" class="btn btn-lg btn-primary btn-block">
+  <!--
+    <a href="{{ url('auth/facebook') }}" class="btn btn-lg btn-primary btn-block">
         <strong>Login With Facebook</strong>
-    </a> -->
+    </a>
+  -->
   <!-- <div class="g-signin2" data-onsuccess="onSignIn"></div>
   <hr>
   <a href="{{ url('auth/google') }}" style="margin-top: 20px;" class="btn btn-lg btn-success btn-block">
